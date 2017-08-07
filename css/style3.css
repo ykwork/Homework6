@@ -1,0 +1,60 @@
+.table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  border-bottom: 1px solid lightgray ;
+  width: 225px;
+  height: 50px;
+}
+.but1, .but2 {
+border: none;
+background-color: red;
+height: 35px;
+width: 30px;
+font-weight: bold;
+font-size: 15pt;
+color: white;
+}
+.delete {
+  border: none;
+  background-color: #cf5b4e;
+  height: 30px;
+  width: 70px;
+  font-weight: bold;
+  font-size: 9pt;
+  color: white;
+  vertical-align: middle;
+}
+{
+ border: none;
+}
+.bold {
+  font-weight: bold;
+}
+.red {
+  color: red;
+}
+p {
+  text-align: right;
+}
+.total {
+  font-size: 15pt;
+}
+.subtotal{
+  color: gray;
+  font-size: 13pt;
+}
+a{
+  text-decoration: none;
+  display: block;
+  margin-left: 500px;
+  color: red;
+  font-size: 18pt;
+  font-style: italic;
+}

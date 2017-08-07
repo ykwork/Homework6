@@ -1,0 +1,15 @@
+td {
+  width: 200px;
+  height: 50px;
+  font-size: 15pt;
+}
+table {
+border-collapse: collapse;
+}
+tr:first-child{
+  font-weight: bold;
+  border-bottom: solid lightgray 1px;
+}
+.und{
+  border-bottom: solid lightgray 1px;
+}
