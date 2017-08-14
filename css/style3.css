@@ -12,6 +12,9 @@ td {
   width: 225px;
   height: 50px;
 }
+th{
+  text-align: left;
+}
 .but1, .but2 {
 border: none;
 background-color: red;
@@ -57,4 +60,27 @@ a{
   color: red;
   font-size: 18pt;
   font-style: italic;
+}
+.fullwrap {
+  background-color: #fcf4f4;
+  width: 1400px;
+  height: 500px;
+  border: 2px solid lightgray;
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 0 0 5px 2px lightgray;
+}
+.wrap {
+  border-right: solid 6px lightgray;
+  padding-right: 20px;
+}
+.cross{
+  margin-left: 1385px;
+  margin-top: -20px;
+  border: 3px solid #cecece;
+  border-radius: 200px 200px 200px 200px;
+  color: white;
+  font-weight: bold;
+  font-size: 16pt;
+  background: black;
+  box-shadow: 0 0 5px 2px lightgray;
 }

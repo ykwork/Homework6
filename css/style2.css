@@ -1,14 +1,11 @@
-td {
+td, th{
   width: 200px;
   height: 50px;
   font-size: 15pt;
+  text-align: left;
 }
 table {
 border-collapse: collapse;
-}
-tr:first-child{
-  font-weight: bold;
-  border-bottom: solid lightgray 1px;
 }
 .und{
   border-bottom: solid lightgray 1px;

@@ -19,6 +19,7 @@
 }
 input:focus{
   border: solid 1px red;
+  outline: white;
 }
 .p3:nth-child(even) {
   color: red;
@@ -34,14 +35,16 @@ p::after {
 p::before{
   content: "\2602"
 }
-.b2::before{
+.b2:before{
   color: black;
-  left: 0px;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 1px;
   content:"\25C4";
 }
-.b2::after{
-  content: "   1111   ";
-  background-color: black;
-  position: absolute;
-  float: left;
+.b2{
+  margin-left: 10px;
+width: 30px;
+height: 20px;
+background: black;
 }
