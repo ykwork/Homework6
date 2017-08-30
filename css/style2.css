@@ -1,4 +1,4 @@
-td, th{
+td{
   width: 200px;
   height: 50px;
   font-size: 15pt;
@@ -9,4 +9,9 @@ border-collapse: collapse;
 }
 .und{
   border-bottom: solid lightgray 1px;
+}
+thead {
+  font-size: 15pt;
+  font-weight: bold;
+  text-align: left;
 }
